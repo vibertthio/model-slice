@@ -10,7 +10,7 @@ float count = 0;
 float phase = PI * 0.5;
 
 void setup() {
-  size(720, 360, P3D);
+  size(800, 500, P3D);
   cam = new PeasyCam(this, 200);
   cam.setMinimumDistance(100);
   cam.setMaximumDistance(300);
