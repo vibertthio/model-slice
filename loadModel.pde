@@ -43,4 +43,8 @@ public void draw() {
   }
   count += 0.05;
   lights();
+
+  if ((frameCount % 3) == 0 && frameCount < 125) {
+    screenshot();
+  }
 }
